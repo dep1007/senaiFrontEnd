@@ -1,0 +1,50 @@
+* {
+    margin: 0; /* você vai zerando tudo para tirar aquele branco*/
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+height: 81px;
+background: #1E1C21;
+    
+}
+
+.container-grid {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 100%; 
+    /*100% pq vai ter 100% da altura do pai dele*/
+} /* isso aqui serve para o menu inicial*/
+
+/*.menu {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}*/
+
+.menu {
+    justify-content: space-between ;
+    display: flex;
+    width: 727px;
+    height: 23.8px;
+    left: 1051px;
+    top: 25px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
