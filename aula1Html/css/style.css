@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
     margin: 0; /* você vai zerando tudo para tirar aquele branco*/
     padding: 0;
@@ -47,4 +49,72 @@ background: #1E1C21;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.banner {
+    height: 630px;
+    background-image: url(../img/Rectangle\ 2background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+}
+
+.posicionamento-banner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.conteudo-banner {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 585px;
+    height: 300px;
+    align-items: center;/*aqui ele fica fechadinho*/
+    justify-content: space-between;
+
+
+    
+}
+
+.conteudo-banner a {
+    color: white;
+    background-color: #c31616;
+    padding: 15px;
+    font-family: "Roboto";
+    font-size: 36px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.conteudo-banner h1 {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+.conteudo-banner p {
+    font-family: "Roboto";
+    font-size: 36px;
+}
+
+.menu2 {
+    height: 168px;
+    background-color: #1E1C21;
+}
+
+.posicionamento-grid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    /*fazer igual o menu*/
+
+}
 
