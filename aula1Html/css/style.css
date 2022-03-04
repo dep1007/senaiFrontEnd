@@ -107,14 +107,29 @@ background: #1E1C21;
 .menu2 {
     height: 168px;
     background-color: #1E1C21;
+    
 }
 
 .posicionamento-grid{
+   width: 1200px;
+   margin: auto;
+
+}
+
+.posicionamento-grid a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
-    /*fazer igual o menu*/
-
+    font-size: 48;
+    width: 486px;
+    height: 74px;
+    left: 77px;
+    top: 738px;
+    
 }
 
