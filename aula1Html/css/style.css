@@ -60,21 +60,23 @@ background: #1E1C21;
 }
 
 .posicionamento-banner {
+    height: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 100%;
+    flex-wrap: wrap;
     
 }
 
 .conteudo-banner {
+    height: 300px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;/*aqui ele fica fechadinho*/
     flex-direction: column;
     color: white;
     width: 585px;
-    height: 300px;
-    align-items: center;/*aqui ele fica fechadinho*/
-    justify-content: space-between;
+    
 
 
     
@@ -116,13 +118,14 @@ background: #1E1C21;
 
 }
 
+/*
 .posicionamento-grid a {
+    display: flex;
     color: white;
     text-decoration: none;
     font-size: 20px;
     text-transform: uppercase;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 48;
@@ -131,5 +134,37 @@ background: #1E1C21;
     left: 77px;
     top: 738px;
     
+} -> aqui não consigo fazer!! Não dá certo!!
+*/
+
+@media screen and (max-width: 1200px) {
+    
+    .posicionamento-banner{
+        width: 20vw;
+    }
+
+    .container-grid {
+        width: 90vw; 
+    }
+
+    
+    
 }
+/* exemplos de midia query. 
+
+@media screen and (max-width:768px){
+    header{
+        background-color: darkblue;
+    }
+    .logo{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+} 
+
+OBS: usar do maior para o menor, paran não dar bug.*/
+
 
